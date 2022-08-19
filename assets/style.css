@@ -1,0 +1,338 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+/* Top */
+.top {
+    background-color: #FCCB08;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 97vw;
+    overflow: hidden;
+}
+
+.verticalLine{
+    border-right: .9rem solid #BB4107;
+    height: 284.8%;
+    position: absolute;
+    top: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.top ul li {
+    float: right;
+}
+
+.phone {
+    margin-right: 80px;
+    margin-top: -10px;
+    display: block;
+}
+
+.email {
+    margin-right: 60px;
+    margin-top: -10px;
+    display: block;
+}
+
+/* End Top */
+
+
+/* Header */
+
+.logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    background-size: auto;
+}
+
+nav ul li a {
+    float: right;
+    display: block;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    color: #BB4107;
+    font-weight: bold;
+}
+
+.coverImg {
+    background:linear-gradient(to left, rgba(249, 195, 8, 0.6), rgba(187, 65, 7, 0.4)), url(../assets/img/cover.png);
+    width: 97vw;
+    height: 65vh;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.coverImg .titulo{
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: -90px;
+    margin-top: 155px;
+}
+
+.coverImg .subtitulo{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 95px;
+    margin-right: 20px;
+}
+
+.container h2{
+    color: #BB4107;
+    font-weight: bold;
+    float: left;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+.textoNosotros{
+    margin-left: 10%;
+}
+
+.imgNosotros{
+    width: 560px;
+    height: auto;
+    margin-left: 50%;
+    margin-top: -325px;
+    filter: brightness(0.5);
+}
+
+.textoValores{
+    color: #DA8841;
+    font-weight: bold;
+    float: left;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+
+
+    /* -----Card 1 ----- */
+.backgroundIcon1{
+    width: 100px;
+    height: 100px;
+    margin-left: 32%;
+    margin-top: -10%;
+    background-color: #BB4107;
+    border-radius: 10%;
+    overflow: visible;
+}
+
+.card1{
+    width: 280px;
+    height: 570px;
+    border-radius: 2%;
+    float: left;
+    margin-left: -14.7%;
+    margin-top: 10%;
+    background-color: #EAEAEA;
+    overflow: visible;
+    display: inline-block;
+}
+
+.icon1{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 18px;
+    filter: invert(1);
+    overflow: hidden;
+}
+
+.textoCompromiso{
+    color: #BB4107;
+    float: left;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 25%;
+    overflow: hidden;
+}
+
+.textAlign{
+    text-align: center;
+}   /* -----End Card 1 ----- */
+
+
+
+
+    /* -----Card 2 ----- */
+.backgroundIcon2{
+    width: 100px;
+    height: 100px;
+    margin-left: 32%;
+    margin-top: -10%;
+    background-color: #BB4107;
+    border-radius: 10%;
+    overflow: visible;
+}
+
+.card2{
+    width: 280px;
+    height: 570px;
+    border-radius: 2%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+    background-color: #EAEAEA;
+    overflow: visible;
+    display: inline-block;
+}
+
+.icon2{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 18px;
+    filter: invert(1);
+    overflow: hidden;
+}
+
+.textoCalidad{
+    color: #BB4107;
+    float: left;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 34%;
+    overflow: hidden;
+}   /* -----End Card 2 ----- */
+
+
+
+
+    /* -----Card 3 ----- */
+
+.backgroundIcon3{
+    width: 100px;
+    height: 100px;
+    margin-left: 32%;
+    margin-top: -10%;
+    background-color: #BB4107;
+    border-radius: 10%;
+    overflow: visible;
+}
+
+.card3{
+    width: 280px;
+    height: 570px;
+    border-radius: 2%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+    background-color: #EAEAEA;
+    overflow: visible;
+    display: inline-block;
+}
+
+.icon3{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 18px;
+    filter: invert(1);
+    overflow: hidden;
+}
+
+.textoPuntualidad{
+    color: #BB4107;
+    float: left;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 25%;
+    overflow: hidden;
+}  /* -----End Card 3 ----- */
+
+
+
+
+   /* -----Card 4 ----- */
+
+.backgroundIcon4{
+    width: 100px;
+    height: 100px;
+    margin-left: 32%;
+    margin-top: -10%;
+    background-color: #BB4107;
+    border-radius: 10%;
+    overflow: visible;
+}
+
+.card4{
+    width: 280px;
+    height: 570px;
+    border-radius: 2%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+    background-color: #EAEAEA;
+    overflow: visible;
+    display: inline-block;
+}
+
+.icon4{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 18px;
+    filter: invert(1);
+    overflow: hidden;
+}
+
+.textoServicio{
+    color: #BB4107;
+    float: left;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 34%;
+    overflow: hidden;
+} /* -----End Card 4 ----- */
+
+.containerMisionVision{
+    float: left;
+    background-color: #BB4107;
+    margin-top: 50px;
+    height: 250px;
+    width: 97vw;
+    overflow: hidden;
+}
+
+.tituloMision, .tituloVision{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: -10px;
+}
+
+
+.textoMision, .textoVision{
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.mision{
+    float: left;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+.vision{
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+}

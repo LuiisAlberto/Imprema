@@ -14,7 +14,7 @@ body {
 
 .verticalLine{
     border-right: .9rem solid #BB4107;
-    height: 1000%;
+    height: max-content;
     position: absolute;
     top: 0;
 }
@@ -109,7 +109,7 @@ nav ul li a {
 .imgNosotros{
     width: 560px;
     height: auto;
-    margin-left: 55%;
+    margin-left: 52.5%;
     margin-top: -32%;
     filter: brightness(0.5);
 }
@@ -140,7 +140,7 @@ nav ul li a {
     height: 570px;
     border-radius: 2%;
     float: left;
-    margin-left: -15.7%;
+    margin-left: -16%;
     margin-top: 10%;
     background-color: #EAEAEA;
     overflow: visible;
@@ -550,7 +550,7 @@ nav ul li a {
     color: #BB4105;
     float: left;
     font-size: 25px;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 7%;
 }
 
@@ -567,13 +567,13 @@ nav ul li a {
     width: 85%;
     border: rgba(232, 230, 230, 0.908) 1px solid;
     margin-top: 4%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .poliuretano1{
     float: left;
     margin-top: .5%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 200px;
     height: auto;
 }
@@ -613,7 +613,7 @@ nav ul li a {
 .poliuretano6{
     float: left;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 200px;
     height: auto;
 }
@@ -661,7 +661,7 @@ nav ul li a {
 .poliuretano9{
     float: left;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 200px;
     height: auto;
 }
@@ -687,13 +687,13 @@ nav ul li a {
     width: 85%;
     border: rgba(232, 230, 230, 0.908) 1px solid;
     margin-top: .5%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .aluminio1{
     float: left;
     margin-top: .5%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 300px;
     height: auto;
 }
@@ -733,7 +733,7 @@ nav ul li a {
 .aluminio5{
     float: left;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 150px;
     height: auto;
 }
@@ -854,7 +854,7 @@ nav ul li a {
     color:  #D57117;
     float: left;
     font-size: 22px;
-    margin-left: -85%;
+    margin-left: -86%;
     margin-top: 47%;
 }
 
@@ -863,13 +863,13 @@ nav ul li a {
     width: 85%;
     border: rgba(232, 230, 230, 0.908) 1px solid;
     margin-top: 38%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .abrazadera1{
     float: left;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 200px;
     height: auto;
 }
@@ -896,4 +896,322 @@ nav ul li a {
     margin-left: 3%;
     width: 200px;
     height: auto;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    background-color: #FFD207;
+    overflow: hidden;
+}
+
+.titulo-texto{
+    float: left;
+    margin-top: 1%;
+    margin-left: 4%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #BB4107;
+    overflow: hidden;
+}
+
+.subtitulo-texto{
+    margin-top: 3%;
+    margin-left: 4%;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.texto-footer{
+    margin-top: -3%;
+    margin-left: 4%;
+    text-align: left;
+    font-size: 14.5px;
+    overflow: hidden;
+}
+
+.contacto-nosotros-texto{
+    color: #BB4107;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.phone2 {
+    color: #BB4107;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1.5%;
+    margin-top: 2%;
+    display: block;
+}
+
+.email2{
+    color: #BB4107;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    display: block;
+}
+
+.siguenos-texto{
+    color: #BB4107;
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.backgroundRedes1{
+    width: 100px;
+    height: 100px;
+    margin-left: 32%;
+    margin-top: -10%;
+    background-color: #BB4107;
+    border-radius: 10%;
+    overflow: visible;
+}
+
+.backgroundRedes1{
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-left: 4%;
+    margin-top: -1.9%;
+    background-color: #BB4107;
+    border-radius: 10%;
+}
+
+.ig{
+    width: 30px;
+    height: 30px;
+    margin-left: 17%;
+    margin-top: 17%;
+    overflow: hidden;
+}
+
+.backgroundRedes2{
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-left: 1%;
+    margin-top: -1.9%;
+    background-color: #BB4107;
+    border-radius: 10%;
+}
+
+.fb{
+    width: 30px;
+    height: 30px;
+    margin-left: 17%;
+    margin-top: 17%;
+    overflow: hidden;
+}
+
+.form-label-1{
+    float: right;
+    margin-top: -43%;
+    margin-right: 30.7%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: light;
+}
+
+.form-name{
+    float: right;
+    width: 450px;
+    height: 40px;
+    margin-top: -41%;
+    margin-right: 8.7%;
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.form-label-2{
+    float: right;
+    margin-top: -36%;
+    margin-right: 30.7%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: light;
+}
+
+.form-email{
+    float: right;
+    width: 450px;
+    height: 40px;
+    margin-top: -34%;
+    margin-right: 8.7%;
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.form-label-3{
+    float: right;
+    margin-top: -29%;
+    margin-right: 30.7%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: light;
+}
+
+.form-tel{
+    float: right;
+    width: 210px;
+    height: 40px;
+    margin-top: -27%;
+    margin-right: 25.3%;
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.form-label-4{
+    float: right;
+    margin-top: -29%;
+    margin-right: 15.6%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: light;
+}
+
+.form-cel{
+    float: right;
+    width: 210px;
+    height: 40px;
+    margin-top: -27%;
+    margin-right: 8.9%;
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.form-label-5{
+    float: right;
+    margin-top: -22%;
+    margin-right: 35.3%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: light;
+}
+
+.form-msg{
+    float: right;
+    width: 450px;
+    height: 150px;
+    margin-top: -20%;
+    margin-right: 8.9%;
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.form-label-6{
+    float: right;
+    margin-top: -9%;
+    margin-right: 9%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: light;
+}
+
+.btn{
+    float: right;
+    width: 200px;
+    height: 50px;
+    margin-top: -6%;
+    margin-right: 26.3%;
+    background-color: #BB4107;
+    border: 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+	background-color: #ff5100;
+}
+
+.separator-line{
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 10px;
+}
+
+.footer-bottom{
+    background: rgb(243,184,7);
+    background: linear-gradient(90deg, rgba(243,184,7,1) 0%, rgba(222,139,7,1) 50%, rgba(194,79,7,1) 100%);
+    width: 100%;
+    height: 300px;
+}
+
+.footer-img-1{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.footer-img-2{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.copyright{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.footer-lista-1{
+    float: right;
+    margin-right: 35%;
+    margin-top: -14%;
+    list-style: none;
+    line-height : 35px;
+}
+
+.footer-questions ul li a{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.return{
+    float: right;
+    margin-top: -18.8%;
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+.up{
+    float: right;
+    margin-right: 1.5%;
+    margin-top: -17.8%;
+    filter: brightness(1.1);
+    cursor: pointer;
 }
